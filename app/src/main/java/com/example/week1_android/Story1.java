@@ -55,7 +55,7 @@ class Employee {
     }
 }
 
-class Contractor extends Employee {
+class Contractor extends com.example.week1_android.kotlinlearning4.Employee {
 
     String salary = "$100,000";
 
@@ -69,7 +69,7 @@ class Contractor extends Employee {
 }
 
 // Intern & Fulltime
-class Intern extends Employee {
+class Intern extends com.example.week1_android.kotlinlearning4.Employee {
 
     String salary = "$50,000";
 
@@ -82,7 +82,7 @@ class Intern extends Employee {
     }
 }
 
-class FullTime extends Employee {
+class FullTime extends com.example.week1_android.kotlinlearning4.Employee {
 
     String salary = "$150,000";
 
